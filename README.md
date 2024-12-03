@@ -42,3 +42,11 @@ The lecture videos are available on Hung-Yi Lee's [youtube channel](https://www.
 
 [<img src="https://i.imgur.com/SFDpe52.jpg" width="500">](https://www.youtube.com/watch?v=7XZR0-4uS5s&t=18s)
 <img src="http://i.imgur.com/SRv0h6F.jpg" width="500">
+
+```bash
+GIT_LFS_SKIP_SMUDGE=1 git clone git@github.com:SecretLittleBoy/ML2022-Spring.git
+```
+```powershell
+$env:GIT_LFS_SKIP_SMUDGE = "1"
+git clone git@github.com:SecretLittleBoy/ML2022-Spring.git
+```
